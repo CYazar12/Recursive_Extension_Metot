@@ -1,14 +1,6 @@
-www.patika.dev
-# Recursive_Extension_Metot
-
-
-
-´´´ class Program
-
+﻿class Program
 {
-
     public static void Main(string[] args)
-    
     {
         //Rekursif - Oz yinelemeli // Faktoriyel ust alma islemleri falan
        int result =1;
@@ -54,30 +46,30 @@ www.patika.dev
     }
       //Expo[3,4]= Expo[3,3]*3=Expo[3,2]*3*3...
    
-   public static class Extension                    //extension metotdlar herzaman static
+   public static class Extension
    {
-    public static bool CheckSpaces(this string param)  // this herzaman olmak zorunda
+    public static bool CheckSpaces(this string param)
     {
         return param.Contains(" ");
     }
 
-    public static string RemoveWhiteSpace(this string param) //bosluklari yok eden metot
+    public static string RemoveWhiteSpace(this string param)
     {
         string[] dizi=param.Split(" ");
         return string.Join("*",dizi);
     }
 
-         public static string MakeUpperCase(this string param) // Büyük Harfler ile yazan metot
+         public static string MakeUpperCase(this string param)
     {
         return param.ToUpper( );
     }
 
-         public static string MakeLowerCase(this string param) // Kücük harflere ile yazan metot
+         public static string MakeLowerCase(this string param)
     {
         return param.ToLower( );
     }
       
-      public static int[] SortArray(this int[] param) // siralayan metot
+      public static int[] SortArray(this int[] param)
       {
          Array.Sort(param);
          return param;
@@ -100,6 +92,3 @@ www.patika.dev
        }
    
    }
-
-
-´´´
