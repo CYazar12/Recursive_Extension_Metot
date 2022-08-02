@@ -52,11 +52,15 @@ www.patika.dev
         return Expo(sayi,ust-1)*sayi;
       }  
     }
-      //Expo[3,4]= Expo[3,3]*3=Expo[3,2]*3*3...
+    
+    //Expo[3,4]= Expo[3,3]*3=Expo[3,2]*3*3...
+    
    
    public static class Extension                    //extension metotdlar herzaman static
+   
    {
     public static bool CheckSpaces(this string param)  // this herzaman olmak zorunda
+    
     {
         return param.Contains(" ");
     }
