@@ -3,8 +3,11 @@
 
 
 ´´´ class Program
+
 {
+
     public static void Main(string[] args)
+    
     {
         //Rekursif - Oz yinelemeli // Faktoriyel ust alma islemleri falan
        int result =1;
