@@ -3,7 +3,7 @@ www.patika.dev
 
 
 
-´´´ class Program
+```class Program
 
 {
 
@@ -103,7 +103,4 @@ www.patika.dev
         return param.Substring(0,1);
        }
    
-   }
-
-
-´´´
+   }```
